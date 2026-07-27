@@ -1,0 +1,68 @@
+// One Last Chance - Final Script
+
+const hero = document.getElementById("hero");
+const gallery = document.getElementById("gallery");
+const enterBtn = document.getElementById("enterBtn");
+
+// Open Website
+enterBtn.addEventListener("click", () => {
+    hero.style.display = "none";
+    gallery.style.display = "block";
+    startSlideshow();
+    startHearts();
+});
+
+// ----------------------
+// Auto Slideshow
+// ----------------------
+
+const slides = document.querySelectorAll(".slide");
+let currentSlide = 0;
+
+function startSlideshow(){
+
+    if(slides.length===0) return;
+
+    setInterval(()=>{
+
+        slides[currentSlide].classList.remove("active");
+
+        currentSlide++;
+
+        if(currentSlide>=slides.length){
+            currentSlide=0;
+        }
+
+        slides[currentSlide].classList.add("active");
+
+    },3000);
+
+}
+
+// ----------------------
+// Floating Hearts
+// ----------------------
+
+function startHearts(){
+
+    setInterval(()=>{
+
+        const heart=document.createElement("div");
+
+        heart.className="heart";
+
+        heart.innerHTML="❤️";
+
+        heart.style.left=Math.random()*100+"vw";
+
+        heart.style.fontSize=(18+Math.random()*22)+"px";
+
+        document.body.appendChild(heart);
+
+        setTimeout(()=>{
+            heart.remove();
+        },8000);
+
+    },500);
+
+}

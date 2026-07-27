@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Last Chance ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>❤️ One Last Chance ❤️</h1>
+
+<p>
+This website is dedicated to one special person...
+</p>
+
+<h2>Gautami ❤️</h2>
+
+<button onclick="showLetter()">
+Open My Heart
+</button>
+
+</div>
+
+<div id="letter">
+
+<h1>Dear Gautami ❤️</h1>
+
+<p>
+
+Thank you for opening this page.
+
+I'm not here to force you or expect anything from you.
+
+I only wanted to say that I'm truly sorry for the mistakes I made.
+
+The memories we shared will always remain special to me.
+
+Thank you for every smile,
+every laugh,
+and every beautiful moment.
+
+I sincerely wish you happiness, peace, and success in your life.
+
+Take care of yourself.
+
+❤️
+
+— Pradeep
+
+</p>
+
+<h2>Our Beautiful Memories ❤️</h2>
+
+<div class="gallery">
+
+<img src="assets/photos/photo1.jpg">
+<img src="assets/photos/photo2.jpg">
+<img src="assets/photos/photo3.jpg">
+<img src="assets/photos/photo4.jpg">
+<img src="assets/photos/photo5.jpg">
+<img src="assets/photos/photo6.jpg">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

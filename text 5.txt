@@ -1,0 +1,33 @@
+<section id="ending">
+
+<h1>❤️ Thank You ❤️</h1>
+
+<p>
+
+Dear Gautami,
+
+Thank you for reading this.
+
+This page was never meant to pressure you or ask you for an answer.
+
+I only wanted to express my feelings honestly.
+
+No matter where life takes us,
+I sincerely wish you happiness, peace and success.
+
+You'll always be a beautiful memory in my life.
+
+Take care.
+
+❤️
+
+Forever,
+Pradeep
+
+</p>
+
+<button onclick="window.scrollTo({top:0,behavior:'smooth'})">
+Back To Top ↑
+</button>
+
+</section>

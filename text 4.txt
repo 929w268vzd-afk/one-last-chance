@@ -1,0 +1,15 @@
+function unlockWebsite(){
+
+const password=document.getElementById("pass").value;
+
+if(password==="gautami"){
+
+document.getElementById("lockScreen").style.display="none";
+
+}else{
+
+document.getElementById("error").innerHTML="Wrong Password ❤️";
+
+}
+
+}

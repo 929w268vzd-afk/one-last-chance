@@ -1,0 +1,12 @@
+<div id="lockScreen">
+    <h2>🔒 Private Page</h2>
+    <p>This page is only for Gautami ❤️</p>
+
+    <input type="password" id="pass" placeholder="Enter Password">
+
+    <button onclick="unlockWebsite()">
+        Unlock ❤️
+    </button>
+
+    <p id="error"></p>
+</div>

@@ -1,0 +1,23 @@
+#ending{
+padding:80px 20px;
+text-align:center;
+background:#050505;
+}
+
+#ending h1{
+color:#ff4d8d;
+font-size:42px;
+margin-bottom:30px;
+}
+
+#ending p{
+max-width:800px;
+margin:auto;
+line-height:2;
+font-size:18px;
+white-space:pre-line;
+}
+
+#ending button{
+margin-top:40px;
+}
