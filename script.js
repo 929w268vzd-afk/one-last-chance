@@ -244,3 +244,12 @@ welcome.style.display="none";
 },800);
 
 };
+function finalMessage(){
+
+alert(
+
+"❤️ Thank you for visiting this website.\n\nNo matter what your decision is,\nI will always respect you.\n\nTake care of yourself.\n\nForever,\nPradeep ❤️"
+
+);
+
+}
