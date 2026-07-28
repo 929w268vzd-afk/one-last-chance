@@ -184,3 +184,25 @@ slides[current].classList.add("active");
 }
 
 setInterval(showSlide,4000);
+const text =
+"Every beautiful story deserves one last chance. This website is not made to force you. It is simply made from my heart. ❤️";
+
+const typing = document.getElementById("typing");
+
+let i = 0;
+
+function typeWriter(){
+
+if(i < text.length){
+
+typing.innerHTML += text.charAt(i);
+
+i++;
+
+setTimeout(typeWriter,40);
+
+}
+
+}
+
+typeWriter();
