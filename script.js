@@ -229,3 +229,18 @@ section.classList.add("hidden");
 observer.observe(section);
 
 });
+const welcome=document.getElementById("welcome");
+
+const enter=document.getElementById("enterBtn");
+
+enter.onclick=()=>{
+
+welcome.style.opacity="0";
+
+setTimeout(()=>{
+
+welcome.style.display="none";
+
+},800);
+
+};
